@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: rgba(38, 20, 71, 1);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    overflow:hidden ;
+    border: 25%;
+    position: fixed;
+    background-color:rgba(38, 20, 71, 0.7) ;
+    width: 100%;
+}
+.navbar a {
+    text-align: right;
+    padding: 14px 16px;
+    margin: auto;
+    font-size: 120%;
+}
+
+.container {
+    width: auto;
+    padding-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-template-rows: 15% 35% 35% 15%;
+    grid-template-areas:
+    ". . . . . . . ."
+    ". a a . . b b ."
+    ". a a . . b b ."
+    ". . . . . . . .";
+}
+
+.col-txt {
+    padding-top: 20%;
+    font-size: 150%;
+    grid-area: a;
+}
+
+.col-img {
+    padding-top: 30%;
+    grid-area: b;
+}
+
+.circle {
+    width : 110%;
+    height: 90%;
+    padding-right: 30%;
+    padding-top: 20%;
+    background-color: rgba(194, 232, 18, 1);
+    border-radius: 50%;
+    grid-area: b;
+    z-index: -1;
+}

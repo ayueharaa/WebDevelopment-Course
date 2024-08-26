@@ -1,0 +1,8 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around ;
+    background-color: blue;
+}
+.nav-item{
+    font-size: 150px;
+}
