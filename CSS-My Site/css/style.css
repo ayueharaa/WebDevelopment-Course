@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.top-container{
+    background-color: #f4faff;
+}   
+h1 {
+    color: #72b172;
+    line-height: 2;
+    font-size: 5.5rem;
+    margin-top: 50px;
+    font-family: 'Caveat', cursive;
+}
+h2 {
+    color: #72b172;
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin: 50px, auto, 0, auto;
+}
+.about-me {
+    margin: auto 300px 50px 300px;
+}
+hr {
+    border-top: 10px dotted rgb(182, 182, 182);
+    margin: auto 500px auto 500px ;
+}
+h3 {
+    color: #72b172;
+}
+a {
+    color: #72b172;
+}
+.skill-row {
+    text-align: left;
+    line-height: 2;
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.chilli-img {
+    width: 25%;
+    margin-left: 30px;
+    float: right;
+}
+.pc-img {
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+.top-cloud{
+    margin: 40px;
+    position: relative;
+    left: 200px;
+}
+.bottom-cloud {
+    position: absolute;
+}
